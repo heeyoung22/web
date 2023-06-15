@@ -1,0 +1,163 @@
+*{margin: 0; padding: 0;}
+ul{list-style: none;}
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+
+.bg00{
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    /* justify-content: center;
+    align-items: center; */
+    /* background-attachment: fixed; */
+}
+
+.bg01{background-image: url(img/bg1.png);}
+.bg02{background-image: url(img/bg2.png); position: relative;}
+.bg03{background-image: url(img/bg3.png); position: relative;}
+.bg04{background-image: url(img/bg4.png); position: relative;}
+
+.cont04{
+    width: 717px; 
+    height: 116px;    
+    position: absolute;
+    top: 25%;
+    left: 15%;
+}
+.bt{
+    position: absolute;
+    top: 38%;
+    left: 15%;
+} 
+.bt1 {
+    padding-right: 20px;
+}
+.bt-1{
+    width: 334px;
+    height: 92px;
+    background:url(./img/botton1.png);
+    position: absolute;
+}
+.bt-2{
+    width: 334px;
+    height: 92px;
+    background:url(./img/botton1-1.png);
+    position: absolute;
+    display: none;
+}
+.txt1{
+    font-family: 'Noto Sans KR', sans-serif;
+    position: absolute;
+    width: 556px;
+    height: 653px;
+    font-size: 130px;
+    color: white;
+    line-height: 155px;
+    font-weight: 100;
+    top: 18%;
+    left: 21%;
+    letter-spacing: -5px;
+}
+
+.txt2{
+    font-family: 'Noto Sans KR', sans-serif;
+    position: absolute;
+    font-size: 100px;
+    color: white;
+    top: 33%;
+    left: 1000px;
+    letter-spacing: -3px;
+}
+
+.txt3{
+    font-family: 'Noto Sans KR', sans-serif;
+    position: absolute;
+    font-size: 45px;
+    color: #EBEBEB;
+    top: 47%;
+    left: 1000px;
+    letter-spacing: -3px;
+}
+
+/* 버튼 통합 설정 */
+
+.btn{
+    width: 770px;
+    height: 100px;
+    display: flex;
+    position: absolute;
+    top: 40%;
+    left: 15%;
+}
+.btn0{
+    width: 350px;
+    height: 100px;
+    background: #222;
+    margin-right: 35px;
+}
+
+/* 첫번째 버튼 */
+
+.btn1 li{
+    width: 350px;
+    height: 100px;
+    position: absolute;
+}
+.btn1_1{
+    background: url(./img/botton1.png);
+    display: block;
+}
+.btn1_2{
+    background: url(./img/botton1-1.png);
+    display: none;
+}
+
+/* 첫번째 텍스트 상자 */
+
+.t_box_1 {
+    width: 1000px;
+    height: 600px;
+    position: absolute;
+    top: 54%;
+    left: 15%;
+    display: none;
+    line-height: 40px;
+    font-size: 20px;
+}
+
+/* 두번째 버튼 */
+
+.btn2 li{
+    width: 350px;
+    height: 100px;
+    position: absolute;
+}
+.btn2_1{
+    background: url(./img/botton2.png);
+    display: block;
+}
+.btn2_2{
+    background: url(./img/botton2-1.png);
+    display: none;
+}
+
+/* 두번째 텍스트 상자 */
+
+.t_box_2 {
+    width: 1000px;
+    height: 600px;
+    position: absolute;
+    top: 54%;
+    left: 15%;
+    display: none;
+    line-height: 40px;
+    font-size: 20px;
+}
+
+
+.p2{
+    font-size: 15px;
+    line-height: 50px;
+}

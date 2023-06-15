@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>미에로화이바</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+</head>
+<body>
+    <div class="bg00 bg01">
+        <div class="cont00 cont01"></div>
+    </div>
+    
+    <div class="bg00 bg02">
+        <img src="img/img1.png" alt="img1">
+        <div class="cont00 cont02"></div>
+        <div class="txt1" data-aos="fade-up">담고 <br>들고<br>미에로를<br>마셔봐!</div>
+    </div>
+
+    <div class="bg00 bg03">
+        <img src="img/img2.png" alt="img2">
+        <div class="cont00 cont03"></div>
+        <div class="txt2" data-aos="fade-down">몸매디자인,</div>
+        <div class="txt3" data-aos="fade-down">미에로 화이바는 식이섬유가<br>함유되어 몸매관리에 도움을 주는<br>국민 식이섬유 음료입니다.</div>
+    </div>
+
+    <div class="bg00 bg04">
+        <img class="cont00 cont04" src="img/img3.png" alt="img3">
+       
+        <div class="btn"><!-- 버튼 통합 -->
+            <ul class="btn0 btn1"><!-- 첫번째 버튼 -->
+                <li class="btn1_1"></li>  <!-- 회색버튼 -->
+                <li class="btn1_2"></li> <!-- 주황버튼 -->
+            </ul>
+            
+            <ul class="btn0 btn2"><!-- 두번째 버튼 -->
+                <li class="btn2_1"></li><!-- 회색 버튼 -->
+                <li class="btn2_2"></li><!-- 주황 버튼 -->
+            </ul>
+        </div>
+        
+        <div class="t_box_1">
+            <h2>식이섬유란?</h2>
+            <p>사람의 소화효소로 분해되지 않는 성분, 몸 속의 과다한 양분흡수를 막아주고, 장의 리듬을<br>
+                조절하며, 음식물이 장 속에 머무는 시간을 단축시키는 등 현대 식생활에 꼭 필요한 물질로<br>
+                제 7의 영양소로 주목 받고 있음
+            </p>
+            <p class="p2">※ 출처 : 파워푸드 슈퍼푸드 사전</p>
+        </div><!-- 첫번째 텍스트 상자 -->
+        <div class="t_box_2">
+            <h2>식이섬유의 기능</h2>
+            <p>1.배설활동 촉진, 변비 예방<br>
+                2.대사질환에 효과적<br>
+                3.콜레스테롤 감소<br>
+            </p>
+            <p class="p2">※ 출처 : 파워푸드 슈퍼푸드 사전</p>
+        </div><!-- 두번째 텍스트 상자 -->
+
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+         $(function(){
+          $(".btn1").hover(function(){
+            $(".btn1_2").css("display","block");
+            $(".btn1_1").css("display","none");
+            $(".t_box_1").css("display","block");
+            },function(){
+            $(".btn1_2").css("display","none");
+            $(".btn1_1").css("display","block");
+            $(".t_box_1").css("display","none");
+             });
+        });
+        
+        $(function(){
+          $(".btn2").hover(function(){
+            $(".btn2_2").css("display","block");
+            $(".btn2_1").css("display","none");
+            $(".t_box_2").css("display","block");
+            },function(){
+            $(".btn2_2").css("display","none");
+            $(".btn2_1").css("display","block");
+            $(".t_box_2").css("display","none");
+             });
+        });
+        
+
+    </script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+</html>
